@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+html(lang="en")
+    head
+        meta(charset="UTF-8")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        meta(http-equiv="X-UA-Compatible", content="ie=edge")
+        title Hotel BT Home
+        link(rel="stylesheet", href="css/style.css")
+        link(rel="stylesheet", href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css")
+    body
+        nav.company
+            .container
+                h1(class="company__logo") 
+                    span.company__logo__custom H
+                    |TB
+                li(class="company__nav--mobile") 
+                    .menu#menu
+                ul.company__nav
+                    li(class="company__nav--item")
+                        a(href="index.html") Home
+                    li(class="company__nav--item")
+                        a(href="about.html") About
+                    li(class="company__nav--item active") 
+                        a(href="contact.html") Contact
+        section.contact
+            .container
+                h1.contact__title 
+                    span.contact__title__span Contact 
+                    | Us
+                    .contact__form--groupe
+                        label.contact__form--groupe__label Name :
+                        input(type="text",name="name",class="contact__form--groupe__input",id="name")
+                    .contact__form--groupe
+                        label.contact__form--groupe__label Email :
+                        input(type="email",name="email",class="contact__form--groupe__input" id="email")
+                    .contact__form--groupe
+                        label.contact__form--groupe__label Message :
+                        textarea(id="message",name="message" ,cols="30", rows="10" class="contact__form--groupe__message")
+                        .error#error
+                        button.contact__form--groupe__submit#submit Submit
+        section.contact__info
+            .container
+                .contact__info__box
+                    i(class="fas fa-map-marker-alt fa-6x")
+                    h3 Location
+                    p 50 Main st, Boston MA
+                .contact__info__box
+                    i(class="fas fa-phone-alt fa-6x")
+                    h3 Phone
+                    p (617) 555-5555
+                .contact__info__box
+                    i(class="fas fa-at fa-6x")
+                    h3 Email
+                    p enjoyIt@hotel.com
+        footer.footer
+            p.footer__label Hotel BT © 2019, All RIghts Reserved
+        script(src="js/main-min.js")
+                
+                

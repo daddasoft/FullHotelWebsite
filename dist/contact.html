@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge"/>
+    <title>Hotel BT Home</title>
+    <link rel="stylesheet" href="css/style.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css"/>
+  </head>
+  <body>
+    <nav class="company">
+      <div class="container">
+        <h1 class="company__logo"> <span class="company__logo__custom">H</span>TB</h1>
+        <li class="company__nav--mobile"> 
+          <div class="menu" id="menu"></div>
+        </li>
+        <ul class="company__nav">
+          <li class="company__nav--item"><a href="index.html">Home</a></li>
+          <li class="company__nav--item"><a href="about.html">About</a></li>
+          <li class="company__nav--item active"> <a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <section class="contact">
+      <div class="container">
+        <h1 class="contact__title"> <span class="contact__title__span">Contact </span>Us
+          <div class="contact__form--groupe">
+            <label class="contact__form--groupe__label">Name :</label>
+            <input class="contact__form--groupe__input" type="text" name="name" id="name"/>
+          </div>
+          <div class="contact__form--groupe">
+            <label class="contact__form--groupe__label">Email :</label>
+            <input class="contact__form--groupe__input" type="email" name="email" id="email"/>
+          </div>
+          <div class="contact__form--groupe">
+            <label class="contact__form--groupe__label">Message :</label>
+            <textarea class="contact__form--groupe__message" id="message" name="message" cols="30" rows="10"></textarea>
+            <div class="error" id="error"></div>
+            <button class="contact__form--groupe__submit" id="submit">Submit</button>
+          </div>
+        </h1>
+      </div>
+    </section>
+    <section class="contact__info">
+      <div class="container">
+        <div class="contact__info__box"><i class="fas fa-map-marker-alt fa-6x"></i>
+          <h3>Location</h3>
+          <p>50 Main st, Boston MA</p>
+        </div>
+        <div class="contact__info__box"><i class="fas fa-phone-alt fa-6x"></i>
+          <h3>Phone</h3>
+          <p>(617) 555-5555</p>
+        </div>
+        <div class="contact__info__box"><i class="fas fa-at fa-6x"></i>
+          <h3>Email</h3>
+          <p>enjoyIt@hotel.com</p>
+        </div>
+      </div>
+    </section>
+    <footer class="footer">
+      <p class="footer__label">Hotel BT © 2019, All RIghts Reserved</p>
+    </footer>
+    <script src="js/main-min.js"></script>
+  </body>
+</html>

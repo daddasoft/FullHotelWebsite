@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+html(lang="en")
+    head
+        meta(charset="UTF-8")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        meta(http-equiv="X-UA-Compatible", content="ie=edge")
+        title Hotel BT Home
+        link(rel="stylesheet", href="css/style.css")
+        link(rel="stylesheet", href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css")
+    body
+        
+        nav.company
+            .container
+                h1(class="company__logo") 
+                    span.company__logo__custom H
+                    |TB
+                li(class="company__nav--mobile") 
+                        .menu#menu
+                ul.company__nav
+                    li(class="company__nav--item active")
+                        a(href="index.html") Home
+                    li(class="company__nav--item")
+                        a(href="about.html") About
+                    li(class="company__nav--item") 
+                        a(href="contact.html") Contact
+                    
+        header.header
+            .container
+                .header__content
+                    h1.header__title 
+                        span Enjoy
+                        | Your Stay
+                    p.header__paragraph Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto dignissimos delectus accusantium?
+                    |
+                    |
+                    a(href="about.html").header__button About Our Hotel
+        section.hotel__history
+            .hotel__history__img
+                img(src="img/photo-1.jpg").hotel__history__img__background
+            .hotel__history__description
+                h2.hotel__history__description__title
+                    span The History 
+                    | Of Our Hotel
+                p.hotel__history__description__paragraph Lorem ipsum dolor, sit amet consectetur adipisicing elit. Assumenda aliquam dolor alias iste autem, quaerat magni unde accusantium qui fuga placeat quidem quo pariatur, voluptatum, ea sequi? Corporis, explicabo quisquam dolor placeat praesentium nesciunt mollitia quos nobis natus voluptatum asperiores!
+                a(href="about.html").hotel__history__description__button Read More
+        section.features
+            .features__location 
+                i(class="fas fa-hotel fa-6x")
+                h2.features__title Great Location
+                p.features__description Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ut, omnis?
+            .features__meals
+                i(class="fas fa-utensils fa-6x")
+                h2.features__title Free Meals
+                p.features__description Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ut, omnis?
+            .features__fitness
+                i(class="fas fa-dumbbell fa-6x")
+                h2.features__title Fitness Room
+                p.features__description Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ut, omnis?
+        footer.footer
+            p.footer__label Hotel BT © 2019, All RIghts Reserved
+        script(src="js/main-min.js")
