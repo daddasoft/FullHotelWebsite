@@ -1,5 +1,5 @@
 # FullHotelWebsite
-
+Preview : [Full Hotel Website](https://daddasoft.github.io/FullHotelWebsite/dist/)
 ## Should Run Command  <code>NPM Install </code>
 #### Using Gulp (Task Runner)
 #### Sass And Pug
